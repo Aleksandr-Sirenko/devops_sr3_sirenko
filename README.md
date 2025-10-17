@@ -5,20 +5,20 @@
 
 # CLI Tools Demonstration
 
-This repository demonstrates three approaches to building CLI tools in Python: `sys.argv`, `click`, and `python-fire`.
+This repository demonstrates three approaches to building CLI tools in Python: `sys.argv`, `click`, and `fire`.
 
 ## Prerequisites
 - Python 3.8+
 - Install dependencies:
   ```bash
-  pip install click python-fire
+  pip install click fire
   ```
 
 ## Project Structure
 - `src/sys_tool.py`: Basic CLI tool using `sys.argv`.
 - `src/click_tool.py`: CLI tool using the `click` library.
 - `src/utils.py`: Utility functions for `fire_expose.py`.
-- `src/fire_expose.py`: CLI tool exposing functions via `python-fire`.
+- `src/fire_expose.py`: CLI tool exposing functions via `fire`.
 
 ## Usage
 
